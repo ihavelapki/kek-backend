@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-import uvicorn
+# import uvicorn
 
 app = FastAPI()
 
@@ -9,6 +9,6 @@ def index():
     return {'aaaaa': 'bbbb'}
 
 
-if __name__ == '__main__':
-    uvicorn.run(app)
+# if __name__ == '__main__':
+#     uvicorn.run(app)
 
