@@ -13,4 +13,5 @@ class Operation(Base):
     amount = sql.Column(sql.Numeric(10.4))
     description = sql.Column(sql.String, nullable=True)
 
-
+    class Config:
+        orm_mode = True
