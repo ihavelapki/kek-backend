@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kek-backend"
+version = "0.1.0"
+description = "fastapi backend project for kek-online-cinemahall"
+authors = ["kek"]
+license = "kek"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
