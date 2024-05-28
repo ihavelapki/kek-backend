@@ -1,15 +1,15 @@
 from fastapi import FastAPI
-from api import router
+# from api import router
 
 # import uvicorn
 
 app = FastAPI()
-app.include_router(router)
+# app.include_router(router)
 
 
 @app.get('/')
-def index():
-    return {'aaaaa': 'bbbb'}
+async def index():
+    return {'response': 'This is a FastApi backnd app'}
 
 
 # if __name__ == '__main__':
